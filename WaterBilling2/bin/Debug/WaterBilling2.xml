@@ -1,0 +1,246 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WaterBilling2
+</name>
+</assembly>
+<members>
+<member name="T:WaterBilling2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources._109244_checkboard_review_animation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources._287340009_136299195723488_7518813093444255123_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources._71205_company_discussion">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources._72879_customer_support_help_support_agent">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.animation_640_l4ie3i6w">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.animation_640_l4il0qrj">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.istockphoto_1040890316_612x612">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.OOjs_UI_icon_search_rtl_svg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.user_icon_150670">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:WaterBilling2.My.Resources.Resources.Vector_water_logo_design_02_removebg_preview">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSet.HoaDonNuocDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSet.HoaDonNuocRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSet.HoaDonNuocRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSetTableAdapters.HoaDonNuocTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WaterBilling2.HoaDonNuocDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WaterBilling2.HoaDonNuocDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WaterBilling2.HoaDonNuocDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.UpdateAll(WaterBilling2.HoaDonNuocDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:WaterBilling2.HoaDonNuocDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.HoaDonNuocDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.KhachHangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.LoaiKhachHangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.HoaDonNuocRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.KhachHangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.LoaiKhachHangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.HoaDonNuocRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.KhachHangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSet.LoaiKhachHangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSetTableAdapters.HoaDonNuocTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSetTableAdapters.KhachHangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSetTableAdapters.LoaiKhachHangTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(WaterBilling2.TienNuocDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(WaterBilling2.TienNuocDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(WaterBilling2.TienNuocDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.UpdateAll(WaterBilling2.TienNuocDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:WaterBilling2.TienNuocDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
